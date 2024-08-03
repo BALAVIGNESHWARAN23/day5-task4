@@ -107,5 +107,8 @@ h3 {
     background-color: #fff700;
     height: 50px;
     width: 50px;
+    border-radius: 10px;
+transform: rotate(40deg); }
 
-}transform: rotate(60deg); 
+
+
