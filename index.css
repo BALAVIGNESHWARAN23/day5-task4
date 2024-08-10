@@ -83,7 +83,7 @@ h3 {
     /* position: relative; */
     margin: 0 0 0 0;
     width: 100%;
-    height: 90vh; 
+    height: 93vh; 
     background: url('/taskimg/Slide_1_2.jpg')  ;
     /* text-align: center; */
 }
@@ -105,10 +105,29 @@ h3 {
 
 .hoteldim{
     background-color: #fff700;
-    height: 50px;
-    width: 50px;
+    margin: 80px 0 0 60px;
+    height: 190px;
+    width: 190px;
     border-radius: 10px;
-transform: rotate(40deg); }
+transform: rotate(40deg);
+transition: width 20s linear;}
 
 
+.hoteldim:hover{
+    transform: rotate(90deg);
+    animation: rec 5s linear ;
+   
+    
+}
 
+@keyframes rec {
+    0% {
+        height: 190px;
+        width: 190px;
+    }
+    
+    100% {
+        height: 250px;
+        width: 190px; /* Final width after rotation */
+    }
+}
