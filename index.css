@@ -120,19 +120,24 @@ h3 {
 transform: rotate(40deg);
 /* transition: width 20s linear; */
 overflow: hidden;
+display: flex;
+
 }
 
 
 .hoteldim:hover{
     transform: rotate(90deg);
     margin: 80px 0 0 200px;
-    height: 400px;
-    width: 250px;
+    height: 700px;
+    width: 400px;
    
    .imgmain{
     display: none;
    }
    .hoverimg{
+    display: block;
+   }
+   .hotelname{
     display: block;
    }
   
@@ -142,14 +147,15 @@ overflow: hidden;
 .hoverimg{
     transform: rotate(-90deg);
     display: none;
-    height: 150px;
-    width: 100%;
-    margin-left: -30px;
-    margin-top: 235px;
+    height: 410px;
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 350px;
+   
 
 }
 .imgmain{
- 
+
     width: 270px; 
     height: 285px; 
     object-fit: cover; 
@@ -163,4 +169,15 @@ overflow: hidden;
    
    
 
+}
+.hotelname{
+    transform: rotate(-90deg);
+    
+    font-size: 20px;
+  
+    color: #ff0000;
+  display: none;
+    font-family: Calistoga;
+    
+    margin-top: -350px;
 }
