@@ -8,9 +8,11 @@ html{
 }
 
 .nav {
+    position: fixed;
     background-color: #fff700;
     box-shadow: 0 10px 10px -5px rgba(255, 234, 3, 0.3);
     height: 20px;
+    width: 98%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -113,14 +115,13 @@ h3 {
     font-family: Calistoga;
 
 }
+
 .hotelsec{
 display: flex;
 
 
 }
-.hotelcard{
-    display: block;
-}
+
 /* .bxs-star{
   
     color: #fff700;
@@ -142,11 +143,38 @@ display: flex;
     color: #fff700;
 
 }
+
+.hotelstarwithout1{
+    font-size: 35px;
+   font-family:DM ;
+    margin: 20px 0 0 50px;
+    color: #000000;
+
+}
 .hoteladd1{
     font-size: 25px;
     font-family:DM ;
      margin: 30px 0 0 50px;
      color: #fff700;
+ 
+}
+.hoteladd2{
+    transform: rotate(-90deg);
+    
+    font-size: 30px;
+  
+    color: #000000;
+    text-shadow: 
+    0 0 5px #000000;
+    
+  /* display: none; */
+    font-family: Calistoga;
+    white-space: nowrap;
+    margin-top: -3px;
+    margin-left: -60px;
+    
+    
+    
  
 }
 
@@ -170,7 +198,7 @@ display: flex;
     height: 700px;
     width: 400px;
    
-   .imgmain{
+   /* .imgmain{
     display: none;
    }
    .hoverimg{
@@ -179,14 +207,27 @@ display: flex;
    .hotelname{
     display: block;
    }
-   .hotelcard{
-    display: none;
-   }
-   
+   */
   
   
   
 }
+.hoteldim:hover .imgmain {
+    display: none;
+}
+
+.hoteldim:hover .hoverimg {
+    display: block;
+}
+
+.hoteldim:hover .hotelname {
+    display: block;
+}
+
+.hoteldim:hover .hotelcard {
+   display: none !important;
+}
+
 .hoverimg{
     transform: rotate(-90deg);
     display: none;
