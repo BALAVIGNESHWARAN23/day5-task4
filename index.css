@@ -179,6 +179,7 @@ display: flex;
 }
 
 .hoteldim{
+  
     background-color: #fff700;
     margin: 80px 0 0 80px;
     height: 190px;
@@ -194,9 +195,10 @@ display: flex;
 
 .hoteldim:hover{
     transform: rotate(90deg);
-    margin: 0px 0 0 200px;
+    
+    margin: 0px 0 0 250px;
     height: 700px;
-    width: 400px;
+    width: 250px;
    
    /* .imgmain{
     display: none;
@@ -220,7 +222,7 @@ display: flex;
     display: block;
 }
 
-.hoteldim:hover .hotelname {
+.hoteldim:hover .cardtitle {
     display: block;
 }
 
@@ -254,18 +256,22 @@ display: flex;
    
 
 }
-.hotelname{
-    transform: rotate(-90deg);
+.cardtitle{
+   
+    transform:  rotate(-90deg);
+   margin-top: -350px;
+   margin-left: -40px;
     
     font-size: 30px;
-  
     color: #000000;
-    text-shadow: 
-    0 0 5px #000000;
-    
-  display: none;
+    text-shadow: 0 0 5px #000000;
+    display: none;
     font-family: Calistoga;
     white-space: nowrap;
-    margin-top: -280px;
-    margin-left: -60px;
+}
+.cardtitle .hotelstarwithout1{
+    font-size: 25px;
+    margin-left: 5px;
+    
+
 }
