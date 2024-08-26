@@ -130,6 +130,7 @@ h3 {
 .hotelsec{
 display: flex;
 margin-top: 0px;
+margin-bottom:0px;
 
 }
 
@@ -367,8 +368,8 @@ display: flex;
  
  
  .hoteldim2:hover{
-     transform: rotate(90deg);
-     
+     transform:  rotate(90deg);
+    
      margin: 0 0 0 250px;
      height: 700px;
      width: 290px;
@@ -401,7 +402,7 @@ display: flex;
      transform: rotate(-90deg);
      display: none;
      height: 410px;
-     width: 400px;
+     width:  400px;
      margin-left: 0px;
      margin-top: 350px;
     
