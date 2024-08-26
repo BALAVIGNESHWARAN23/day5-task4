@@ -7,7 +7,7 @@ html {
     background-color: black;
 }
 
-.nav {
+.nav {z-index:2;
     position: fixed;
     background-color: #fff700;
     box-shadow: 0 10px 10px -5px rgba(255, 234, 3, 0.3);
@@ -192,7 +192,7 @@ margin-bottom:0px;
 }
 
 .hoteldim{
-  
+    z-index:1;
     background-color: #fff700;
     margin: 80px 0 0 40px;
     height: 190px;
@@ -353,7 +353,7 @@ display: flex;
  }
  
  .hoteldim2{
-   
+     z-index:1;
      background-color: #fff700;
      margin: 80px 0 0 250px;
      height: 190px;
@@ -457,3 +457,63 @@ display: flex;
     margin-top: 50px;
     
     }
+
+
+
+
+    /* conact */
+
+    .title_Contact2{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 200px;
+        color: #000000;
+        
+      
+        font-family: Calistoga;
+
+    }
+    .title_Contact{
+        text-align: left;
+        font-size: 70px;
+        margin-top: 10px;
+        color: #fff700;
+      
+        font-family: Calistoga;
+    
+
+    }
+    .contactme {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 15px;
+       
+        color: #fff700;
+        
+      
+        font-family: DM;
+
+    }
+  
+    .contact_btn{
+        text-align: center;
+        border-radius: 20px;
+        background-color:#fff700;
+        color:  #000000;
+        font-family: DM;
+        margin-left:680px;
+        font-size: 20px;
+    }
+
+
+    /* footer */
+
+    footer{
+        text-align: center;
+        height:40px;
+        background-color:#fff700;
+        color:  #000000;
+        font-family: DM;
+        font-size: 30px;
+
+        }
